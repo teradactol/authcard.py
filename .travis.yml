@@ -30,3 +30,15 @@ deploy:
       tags: true
       python: 2.7
       branch: test-release
+  - provider: pypi
+    twine_version: 1.12.1
+    user: teradactol
+    password:
+      secure: "GWVD2cjf8DG2L2Fb83CCpUTy+bwBzJPpEhr+h/lXCObBFiWqDzEj77ccwXbEMbFAvLv2/sMC/KMJPDmMsHNPGuG/nACm3PGq7VApEb24l0Ir4j1hhk52rlvxKHubsIHKFyjc0EJ7ij8Y1wWGi6FrgaNt+Ct3DJaDXchW7YF55zJZbOI9I3VZIm1TtOXGAMb5SwvwHd0UmOPn6ZJO8U8914YYs/6IwvclS+Fl9m9KsXaRKYRQ3l65pH1eCiE+pvn1kqaMGARgtFGPGEK+3VFDFgJGHJc5ZCTHTYhP5GiSkEePp2xDFosN27adW0+AZxwSsnS0hNHpUgsudeS4EZXDtIY0G5zMhM29Jh2yAgsJjhXYsP+GeyZcoklOanFPaJQuAwvPf5jERvwL/IpY2sOMQOAwH0RTm6hFmKz6/NDhycYNPTmI5Qm9Q+01/hq3Rj8igcoiSuqXxfz83DerIvhn0D9YsPgupmWWfeLOt6XViNIz1BTEfQx7o/bbmV9/VXLlbv4U0/8oNrWlTAo0PCqy/PqFtJ/PYSabu/zRpgZvN8Mjm3b8SK7r+c+6xzZhBigBlZkJjRT3vbiF5jCr9v6ZFs14bghT5F3YFETGIhHtr34O5uCwxRsx2ozXXVit3RCBEG4/A1MJnazcbOnqDVM83xeqdeQriUjwSr+SlkPZ2QI="    
+    distributions: "sdist bdist_wheel"
+    skip_existing: true
+    skip_cleanup: true
+    on:
+      tags: true
+      python: 2.7
+      branch: release  
