@@ -1,1 +1,0 @@
-[SOURCE https://github.com/pyca/bcrypt/]
