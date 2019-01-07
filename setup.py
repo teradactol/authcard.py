@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="tdctlauthcard",
-    version="0.0.5",
+    version="0.0.6",
     author="Bishaka Samuel",
     author_email="sbishaka@gmail.com",
     description="Auth utility",
