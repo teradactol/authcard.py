@@ -13,8 +13,14 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/teradactol/authcard.py",
     packages=setuptools.find_packages(),
+    setup_requires=["pytest-runner"],
+    tests_require=["pytest"],
+    install_requires=[
+          'python-jose[cryptography]',
+          'bcrypt'      
+    ],
     classifiers=[
-        "Programming Language :: Python :: 2",
+        "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],

@@ -1,0 +1,10 @@
+Some places that have interesting articles
+https://medium.com/@arjoonn/works-everywhere-setup-py-with-pipenv-bb28ee6ec28f
+https://packaging.python.org/tutorials/installing-packages/
+https://docs.python.org/2.7/library/functions.html#dir
+https://stackoverflow.com/questions/20926909/python-check-if-function-exists-without-try/20940151
+https://en.wikipedia.org/wiki/Bcrypt
+https://docs.pytest.org/en/latest/getting-started.html
+https://docs.python.org/3/tutorial/modules.html
+https://python-packaging.readthedocs.io/en/latest/dependencies.html
+https://stackoverflow.com/questions/9358983/dictionaries-and-default-values
