@@ -1,4 +1,3 @@
-# [SOURCE https://github.com/pyca/bcrypt/]
 import bcrypt
 
 def encryptText(opts={}):
@@ -16,6 +15,3 @@ def compareText(opts={}):
     hashBytes = bytes(hash, 'utf-8')
     match = bcrypt.checkpw(textBytes,hashBytes)
     return match
-
-
-print(encryptText())
