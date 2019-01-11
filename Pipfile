@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 bcrypt = {editable = true,version = "*"}
 python-jose = {editable = true,extras = ["cryptography"],version = "*"}
+pycryptodome = {editable = true,version = "*"}
 
 [requires]
 python_version = "3.7"

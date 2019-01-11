@@ -5,7 +5,6 @@ from Crypto.Util.number import bytes_to_long
 delim = ":"
 
 def decryptText(opts={}):
-    
     _hash = opts.get('hash',"")
     hash_tokens = _hash.split(delim)
 
